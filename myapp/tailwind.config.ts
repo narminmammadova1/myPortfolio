@@ -8,11 +8,17 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      dropShadow:{
+        'custom': '4px -6px 5px #923284',
+        // 'custom2': '4px -4px 10px 10px #923284', 
       },
+      boxShadow:{
+        // shadowCustom:'0px 10px 20px #923284',
+       shadowCustom:"0 -6px 12px #923284"
+      },
+      colors:{
+        purplemain:"#923284"
+      }
     },
   },
   plugins: [],
