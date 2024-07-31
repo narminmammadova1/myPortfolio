@@ -14,10 +14,10 @@ const config: Config = {
       },
       boxShadow:{
         // shadowCustom:'0px 10px 20px #923284',
-       shadowCustom:"0 -6px 12px #923284"
+       "shadowCustom":"0 -6px 12px #923284"
       },
       colors:{
-        purplemain:"#923284"
+   "purplemain":"#923284"
       }
     },
   },
